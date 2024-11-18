@@ -1,0 +1,66 @@
+.login {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginbg {
+    background-color: black;
+    height: fit-content;
+    width: 500px;
+
+}
+
+.cl {
+    color: white;
+
+}
+
+/* One Piece Page */
+.op {
+    margin: 10px 10px;
+    font-size: 1.5rem;
+}
+
+.op span {
+    color: rgb(6, 121, 193);
+}
+
+.col-6 p {
+    text-align: justify;
+}
+
+.id1 {
+    transition: all 0.3s linear 0s;
+}
+
+.id1:hover {
+    transform: translateY(-10px);
+}
+
+.id2 {
+    transition: all 0.3s linear 0
+}
+
+.id2:hover {
+    transform: translate(5px, -10px);
+    cursor: help;
+}
+
+.spin1 {
+    animation: spin 1.5s linear 0s 1 backwards;
+}
+
+@keyframes spin {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+
+        transform: scale(1);
+    }
+}
